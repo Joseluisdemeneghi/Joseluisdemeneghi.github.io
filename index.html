@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Web José Luís</title>
     <style>
-    h1 {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: teal;
         }
-    .descricao {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        .descricao {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
-    body {
-        background-color: #edf2fb;
-    }
-    li{
-        line-height: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: oblique;
-    }
-    h2, h3 {
-        text-decoration: underline;
-    }
+
+        body {
+            background-color: #edf2fb;
+        }
+
+        li {
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+        }
+
+        h2,
+        h3 {
+            text-decoration: underline;
+            color: #5c677d;
+        }
+        .button {
+            background-color: #6096ba;
+            color: white;
+            text-decoration: none;
+            font-weight: 900;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .circled {
+            border-radius: 20%;
+        }
     </style>
 </head>
+
 <body>
-     <h1>José Luís Demeneghi Filho</h1>  
+    <h1>José Luís Demeneghi Filho</h1>
     <br>
     <a href="#eu"><strong>Quem sou eu?</strong> </a>
     <br>
@@ -34,10 +54,12 @@
     <br>
     <a href="#idolo"><strong>Um exemplo pra mim</strong></a>
     <br><br><br><br>
-    <img id="eu" src="imagens/20210504_210908.jpg" alt="Foto de José Luís" width="170 px">
+    <img class="circled" id="eu" src="imagens/20210504_210908.jpg" alt="Foto de José Luís" width="170 px">
     <br><br><br>
     <h2>Minha descrição</h2>
-    <p id="descricao" class="descricao">Sou um <strong>desenvolvedor Web em formação.</strong> Brasileiro, natural de Cuiabá, no Mato Grosso. Apaixonado por esportes e por momentos de lazer, acredito que <em>unir o útil ao agrádavel é sempre o melhor caminho.</em><strong>Ame o que você faz!</strong> </p> 
+    <p id="descricao" class="descricao">Sou um <strong>desenvolvedor Web em formação.</strong> Brasileiro, natural de
+        Cuiabá, no Mato Grosso. Apaixonado por esportes e por momentos de lazer, acredito que <em>unir o útil ao
+            agrádavel é sempre o melhor caminho.</em><strong>Ame o que você faz!</strong> </p>
     <br><br>
     <h2 id="habil">Minhas principais habilidades</h2>
     <br>
@@ -53,8 +75,11 @@
     <li>Html</li>
     <li>CSS</li>
     <br><br>
-    <a id="idolo" href="https://www.linkedin.com/in/gfpoliva/" target="_blank"><h3>Um grande ídolo</h3></a>
+    <a id="idolo" href="https://www.linkedin.com/in/gfpoliva/" target="_blank">
+        <h3 class="button">Um grande ídolo</h3>
+    </a>
     <br>
 
 </body>
+
 </html>
