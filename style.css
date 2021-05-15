@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    }
+.descricao {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 600;
+        text-align: justify;
+    }
+body {
+    background-color: #cddafd;
+}
+.dinamismo {
+    font-size: 18px;
+}
+.pro {
+    font-size: 21px;
+}
+.criativo {
+    font-size: 24px;
+}
+.seguro {
+    font-size: 27px;
+}
+.equipe {
+    font-size: 22px;
+}
+.side {
+    display: inline-block;
+}
+.foto {
+    width: 12%;
+    float: left;
+    padding: 15px 15px;
+    background-color: blue;
+}
+.description {
+    width: 30%;
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 640px;
+    padding-top: 20px;
+}
+.nome {
+    text-align: center;
+}
+li:nth-child(odd) {
+    background-color: coral;
+    width: 18%;
+    color: cornsilk;
+}
