@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.front {
+    height: 669px;
+    background-image: url(imagens/imagem2.jpg);
+    background-size: cover;
+}
+.nome {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    padding-top: 35%;
+    padding-left: 35px;
+    font-size: 1.1em;
+}
+.sumario {
+    border: 1px solid black;
+    text-align: center;
+}
+.intro {
+    display: inline-block;
+    border: 1px solid black;
+    height: 600px;
+}
+.foto {
+    width: 25%;
+    position: absolute;
+    padding-top: 170px;
+    padding-left: 250px;
+}
+.description {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 30%;
+    float: right;
+    padding-right: 320px;
+    padding-top: 210px;
+}
+
+body {
+    background-color:;
+}
+
+li {
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+    color: #5c677d;
+}
+.button {
+    background-color: #6096ba;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 4px;
+    width: 11%;
+    text-align: center;
+}
+.circled {
+    border-radius: 20%;
+}
