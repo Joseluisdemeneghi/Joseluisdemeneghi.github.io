@@ -14,9 +14,27 @@
     padding-left: 35px;
     font-size: 1.1em;
 }
-
+.sumario {
+    border: 1px solid black;
+    text-align: center;
+}
+.intro {
+    display: inline-block;
+    border: 1px solid black;
+    height: 600px;
+}
+.foto {
+    width: 25%;
+    position: absolute;
+    padding-top: 170px;
+    padding-left: 250px;
+}
 .description {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 30%;
+    float: right;
+    padding-right: 320px;
+    padding-top: 210px;
 }
 
 body {
